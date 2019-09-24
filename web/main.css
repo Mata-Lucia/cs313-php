@@ -38,10 +38,17 @@ img {
 
 h1 {
     padding-top: 10rem;
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 4rem;
+    padding: 10rem;
 }
 
 p {
-    margin: 10%;
+    margin: 20rem;
+    padding: 0rem, 50rem, 0rem, 50rem;
     font-family: 'Be Vietnam', sans-serif;
 }
 
