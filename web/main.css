@@ -48,9 +48,10 @@ img {
 }
 
 .introdiv p {
-    margin: 20rem;
+    margin: 10rem;
     padding: 0rem, 20rem, 0rem, 20rem;
     font-family: 'Be Vietnam', sans-serif;
+    font-size: 1.5rem;
 }
 
 .icon {
@@ -59,7 +60,7 @@ img {
 
 .linkdiv {
     background-color: #ad8e9b;
-    padding: 10rem;
+    padding: 15rem;
 }
 
 .linkdiv a{

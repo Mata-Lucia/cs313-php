@@ -35,8 +35,8 @@
         <h1>Hello</h1>
         <h2>My name is Lucia</h2>
         <img src="images/lucia.png" alt="lucia">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse scelerisque vulputate interdum. Nam accumsan tincidunt ligula at egestas. Donec eget metus at magna lacinia accumsan. Donec posuere lacus erat, eu sodales lorem scelerisque ac. Pellentesque tempus lacus nibh, a vehicula turpis mattis eget. Mauris varius rhoncus libero, quis faucibus est. In augue sem, tempor non rutrum consectetur, porta at est. Vivamus id urna ut sem rhoncus convallis. Duis et pulvinar enim.</p>
-        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam cursus mollis leo pharetra pulvinar. Donec eu augue vitae eros lacinia tincidunt. Vivamus pulvinar erat sed consectetur maximus. Suspendisse egestas neque eu urna gravida finibus. Morbi volutpat quam ut erat consequat blandit sagittis et nisl. Sed laoreet metus quis dignissim auctor. Nam sit amet odio sed sapien dignissim varius. Duis pellentesque vulputate diam, egestas lobortis neque vestibulum eu.</p>
+        <p>I'm a student at Brigham Young University - Idaho, and I'm majoring in Web Design and Development with an emphasis in Development. While my interest is in backend development and databases, I enjoy playing and designing sites on the front end too.</p>
+        <p>In this page I will be posting the projects I work on for CS 313 Web Engineering during fall semester 2019. You can see the latest assignments below. </p>
       </div> 
         <div class="linkdiv">
             <a href="assignments.php">Assignments</a>
