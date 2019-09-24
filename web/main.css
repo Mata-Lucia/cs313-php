@@ -39,19 +39,18 @@ img {
 
 .introdiv h1 {
     padding-top: 10rem;
-    font-size: 6rem;
+    font-size: 7rem;
 }
 
 .introdiv h2 {
-    font-size: 4rem;
+    font-size: 5rem;
     padding-bottom: 10rem;
 }
 
 .introdiv p {
-    margin: 10rem;
-    padding: 0rem, 40rem, 0rem, 40rem;
+    margin: 10rem 40rem 10rem 40rem;
     font-family: 'Be Vietnam', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .icon {
@@ -60,7 +59,7 @@ img {
 
 .linkdiv {
     background-color: #ad8e9b;
-    padding: 15rem;
+    padding: 15%;
 }
 
 .linkdiv a{
