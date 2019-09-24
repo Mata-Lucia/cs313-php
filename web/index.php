@@ -10,34 +10,38 @@
 <body>
     <header>
            <!--Navbar-->
-           <nav class="navbar navbar-light teal lighten-4">
+<nav class="navbar navbar-light purple lighten-4 mb-4">
 
-            <!-- Navbar brand -->
-            <a class="navbar-brand" href="#">Menu</a>
+<!-- Navbar brand -->
+<a class="navbar-brand" href="#">Navbar</a>
 
-            <!-- Collapse button -->
-            <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent8" aria-controls="navbarSupportedContent8" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-teal-text"><i class="fas fa-bars fa-1x"></i></span></button>
+<!-- Collapse button -->
+<button class="navbar-toggler toggler-example purple darken-3" type="button" data-toggle="collapse"
+  data-target="#navbarSupportedContent41" aria-controls="navbarSupportedContent41" aria-expanded="false"
+  aria-label="Toggle navigation"><span class="white-text"><i class="fas fa-bars fa-1x"></i></span></button>
 
-            <!-- Collapsible content -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent8">
+<!-- Collapsible content -->
+<div class="collapse navbar-collapse" id="navbarSupportedContent41">
 
-            <!-- Links -->
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                <a class="nav-link waves-effect waves-light" href="index.php">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link waves-effect waves-light" href="assignments.php">Assignments</a>
-                </li>
-            </ul>
-            <!-- Links -->
+  <!-- Links -->
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item active">
+      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Features</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Pricing</a>
+    </li>
+  </ul>
+  <!-- Links -->
 
-            </div>
-            <!-- Collapsible content -->
+</div>
+<!-- Collapsible content -->
 
-            </nav>
-
-            <!--/.Navbar-->
+</nav>
+<!--/.Navbar-->
     </header>
     <main>
         <h1>Hello</h1>
