@@ -29,10 +29,6 @@ body {
 	transition: 0.7s all linear;
 }
 
-h1, h2, p {
-    font-family: 'Be Vietnam', sans-serif;
-}
-
 img {
     display: block;
     margin-left: auto;
@@ -40,8 +36,13 @@ img {
     width: 50%;
 }
 
+h1 {
+    padding-top: 10rem;
+}
+
 p {
     margin: 10%;
+    font-family: 'Be Vietnam', sans-serif;
 }
 
 .icon {
@@ -50,7 +51,7 @@ p {
 
 .linkdiv {
     background-color: #ad8e9b;
-    padding: 20%;
+    padding: 20rem;
 }
 
 .linkdiv a{
