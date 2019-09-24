@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap');
 
 body {
-    font-family: 'Be Vietnam', sans-serif;
     text-align: center;
 }
 
@@ -19,7 +18,7 @@ body {
 
 .navbar-inverse .navbar-nav > li > a {
 	color: #ffffff;
-	font-family: Lato;
+	font-family: 'Be Vietnam', sans-serif;
 	font-size: 1.7em;
 	font-weight: 300;
 	padding: 30px 25px 33px 25px;
@@ -28,7 +27,10 @@ body {
 .navbar-inverse .navbar-nav li a:hover {
 	background-color: #444444;
 	transition: 0.7s all linear;
-	height: 100%;
+}
+
+h1, h2, p {
+    font-family: 'Be Vietnam', sans-serif;
 }
 
 img {
@@ -39,11 +41,11 @@ img {
 }
 
 p {
-    margin: 20%;
+    margin: 10%;
 }
 
 .icon {
-    width: 5%;
+    width: 20%;
 }
 
 .linkdiv {
@@ -54,5 +56,11 @@ p {
 .linkdiv a{
     text-decoration: none;
     color: black;
-    font-size: 2rem;
+    font-size: 4rem;
+}
+
+.linkdiv a:hover {
+    color: #462532;
+    font-weight: bold;
+    text-decoration: none;
 }
