@@ -41,7 +41,13 @@
         </div>
     </main>
     <footer>
-
+        <?php
+        echo "<div class='footer'>";
+        echo "<p>Today is " . date("m.d.Y") . "</p>";
+        date_default_timezone_set('MST');
+        echo "<p>The time is " . date("h:i:sa") . "</p>";
+        echo "</div";
+        ?>
     </footer>
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

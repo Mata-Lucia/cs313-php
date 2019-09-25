@@ -75,7 +75,10 @@ img {
 }
 
 .footer {
+    padding: 10%;
+}
+
+.footer p {
     font-family: 'Be Vietnam', sans-serif;
     font-size: 2rem;
-    padding: 10%;
 }

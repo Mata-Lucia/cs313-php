@@ -46,8 +46,9 @@
     <footer>
       <?php
       echo "<div class='footer'>";
-      echo "Today is " . date("Y.m.d") . "<br>";
-      echo "The time is " . date("h:i:sa");
+      echo "<p>Today is " . date("m.d.Y") . "</p>";
+      date_default_timezone_set('MST');
+      echo "<p>The time is " . date("h:i:sa") . "</p>";
       echo "</div";
       ?>
     </footer>
