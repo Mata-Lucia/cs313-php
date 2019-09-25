@@ -73,3 +73,9 @@ img {
     font-weight: bold;
     text-decoration: none;
 }
+
+.footer {
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 2rem;
+    padding: 10%;
+}
