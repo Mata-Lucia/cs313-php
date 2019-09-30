@@ -35,7 +35,7 @@
         <h1>Assignments</h1>
         <div class="hwlinks">
           <a href="Assignments/team2.html">Team Activity Week 2</a><br>
-          <a href="">Team Activity Week 3</a>
+          <a href="Assignments/team3.html">Team Activity Week 3</a>
         </div>
       </div> 
         <div class="linkdiv">
