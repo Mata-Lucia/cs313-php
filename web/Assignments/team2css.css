@@ -1,0 +1,37 @@
+.div1 {
+    font-size: 2rem;
+    background-color: #ce789c;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+.div2 {
+    font-size: 2rem;
+    background-color: #a1969b;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div3 {
+    font-size: 2rem;
+    background-color: #6e3f53;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    font-size: 2rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.div1:hover {
+    font-weight: bold;
+}
+
+.div2:hover {
+    font-weight: bold;
+}
+
+.div3:hover {
+    font-weight: bold;
+}

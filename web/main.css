@@ -82,3 +82,15 @@ img {
     font-family: 'Be Vietnam', sans-serif;
     font-size: 2rem;
 }
+
+.assignmentlinks a {
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+}
+
+.assignmentlinks a:hover {
+    color: #462532;
+    font-weight: bold;
+    text-decoration: none;
+}
