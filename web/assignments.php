@@ -23,7 +23,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li><a href="index.php">Home</a></li><br>
+					<li><a href="index.php">Home</a></li>
 					<li><a href="assignments.php">Assignments</a></li>
 				</ul>
       </div>
@@ -34,7 +34,7 @@
       <div class="introdiv">
         <h1>Assignments</h1>
         <div class="hwlinks">
-          <a href="Assignments/team2.html">Team Activity Week 2</a>
+          <a href="Assignments/team2.html">Team Activity Week 2</a><br>
           <a href="">Team Activity Week 3</a>
         </div>
       </div> 
