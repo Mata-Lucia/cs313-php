@@ -33,8 +33,10 @@
     <main>
       <div class="introdiv">
         <h1>Assignments</h1>
-        <a class="assignmentlinks" href="Assignments/team2.html">Team Activity Week 2</a>
-        <a class="assignmentlinks" href="">Team Activity Week 3</a>
+        <div class="hwlinks">
+          <a href="Assignments/team2.html">Team Activity Week 2</a>
+          <a href="">Team Activity Week 3</a>
+        </div>
       </div> 
         <div class="linkdiv">
             <a href="assignments.php">Assignments</a>
