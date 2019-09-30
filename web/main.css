@@ -87,6 +87,7 @@ img {
     text-decoration: none;
     color: black;
     font-size: 3rem;
+    padding: 2%;
 }
 
 .hwlinks a:hover {
