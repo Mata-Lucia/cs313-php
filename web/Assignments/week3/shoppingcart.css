@@ -6,27 +6,24 @@ h1, h2 {
 
 p, h3 {
     font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
 }
 
 header {
-    background-color: #85c2c7;
+    background-color: #adcbce;
     display: grid;
     grid-template-columns: 4fr 1fr;
-}
-
-header a {
-    justify-self: end;
+    align-items: center;
 }
 
 header img {
-    width: 15%;
+    width: 50%;
 }
 
 .productdisplay {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2%;
-    align-items: center;
 }
 
 .product {
@@ -39,5 +36,17 @@ header img {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+}
+
+.product a, .product a:visited {
+    text-decoration: none;
+    color: #000000;
+    font-size: 3rem;
+}
+
+.product a:hover {
+    color: #067d9b;
+    font-weight: bold;
+    text-decoration: none;
 }
 

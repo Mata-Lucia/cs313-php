@@ -24,7 +24,7 @@ if ( isset($_GET["add"]) ) {
 </head>
 <body>
     <header>
-        <h1>Poppy Party Store</h1>
+        <h1>POPPY PARTY STORE</h1>
         <a href="cart.php"><img src="images/cart.png" alt="cart"></a>
     </header>
     <h2>Browse Products</h2>
