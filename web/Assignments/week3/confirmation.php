@@ -9,7 +9,7 @@ $zip = htmlspecialchars($_REQUEST["zip"]);
 
 if ( isset($_GET["back"]) ) {
 	$i = $_GET["back"];
-    unset($_SESSION["cart"][$i]);	
+    unset($_SESSION["cart"]);	
     header("Location: https://secret-springs-85688.herokuapp.com/Assignments/week3/shoppingcart.php");
 }
 
