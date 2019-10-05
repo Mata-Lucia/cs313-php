@@ -15,11 +15,7 @@ header {
 }
 
 header a {
-    align-items: right;
-}
-
-header h1 {
-    align-items: center;
+    justify-self: end;
 }
 
 header img {
@@ -30,6 +26,7 @@ header img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2%;
+    align-items: center;
 }
 
 .product {
