@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway&display=swap');
+
+h1, h2 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.productdisplay {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
