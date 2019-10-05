@@ -2,10 +2,16 @@
 session_start();
 
 $name = htmlspecialchars($_REQUEST["name"]);
-$address = htmlspecialchars($_REQUEST["address"]);
+$street = htmlspecialchars($_REQUEST["street"]);
 $city = htmlspecialchars($_REQUEST["city"]);
 $state = htmlspecialchars($_REQUEST["state"]);
 $zip = htmlspecialchars($_REQUEST["zip"]);
+
+if ( isset($_GET["back"]) ) {
+	$i = $_GET["back"];
+    unset($_SESSION["cart"][$i]);	
+    header("Location: https://secret-springs-85688.herokuapp.com/Assignments/week3/shoppingcart.php");
+}
 
 ?>
 
@@ -33,9 +39,9 @@ $zip = htmlspecialchars($_REQUEST["zip"]);
     ?>
     <h2>Will be mailed to:</h2>
     <p>Name: <?php echo $name; ?></p>
-    <p>Address: <?php echo $address; ?></p>
+    <p>Address: <?php echo $street; ?></p>
     <p>City: <?php echo $city; ?></p>
     <p>State: <?php echo $state; ?></p>
     <p>Zip Code: <?php echo $zip; ?></p>
-    <a href="shoppingcart.php">Back to Browsing</a>
+    <a href="?back=<?php echo($i); ?>">Back to Browsing</a>
 </body>
