@@ -2,7 +2,7 @@
 session_start();
 
 $name = htmlspecialchars($_REQUEST["name"]);
-$street = htmlspecialchars($_REQUEST["address"]);
+$address = htmlspecialchars($_REQUEST["address"]);
 $city = htmlspecialchars($_REQUEST["city"]);
 $state = htmlspecialchars($_REQUEST["state"]);
 $zip = htmlspecialchars($_REQUEST["zip"]);
@@ -18,7 +18,7 @@ $zip = htmlspecialchars($_REQUEST["zip"]);
 <body>
     <h1>Confirmation</h1>
     <p>Thank you for shopping!<p>
-    <p>Your order:</p>
+    <h2>Your order:</h2>
     <?php
     foreach ( $_SESSION["cart"] as $i ) {
     ?>
@@ -27,15 +27,15 @@ $zip = htmlspecialchars($_REQUEST["zip"]);
             <p><?php echo( $_SESSION["product"][$i] ); ?></p>
             <img src=<?php echo( $_SESSION["image"][$i] ); ?> alt="productimage">
             <p><?php echo( $_SESSION["price"][$i] ); ?></p>
-            <a href="?delete=<?php echo($i); ?>">Delete from cart</a>
         </div>
     <?php
     }
     ?>
-    <p>Will be mailed to:</p>
+    <h2>Will be mailed to:</h2>
     <p>Name: <?php echo $name; ?></p>
     <p>Address: <?php echo $address; ?></p>
     <p>City: <?php echo $city; ?></p>
     <p>State: <?php echo $state; ?></p>
     <p>Zip Code: <?php echo $zip; ?></p>
+    <a href="shoppingcart.php">Back to Browsing</a>
 </body>
