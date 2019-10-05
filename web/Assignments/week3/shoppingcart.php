@@ -23,14 +23,17 @@ if ( isset($_GET["add"]) ) {
     <title>Shopping Cart Activity</title>
 </head>
 <body>
-    <a href="cart.php"><img src="images/cart.png" alt="cart"></a>
-    <h1>Browse Products</h1>
+    <div class="header">
+        <h1>Poppy Party Store</h1>
+        <a href="cart.php"><img src="images/cart.png" alt="cart"></a>
+    </div>
+    <h2>Browse Products</h2>
     <div class="productdisplay">
         <?php
         for ($i=0; $i< count($product); $i++) {
         ?>
         <div class="product">
-            <h2><?php echo($product[$i]); ?></h2>
+            <h3><?php echo($product[$i]); ?></h3>
             <img src=<?php echo($image[$i]); ?> alt="productimage">
             <p><?php echo($price[$i]); ?></p>
             <a href="?add=<?php echo($i); ?>">Add to cart</a>

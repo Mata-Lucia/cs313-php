@@ -8,13 +8,31 @@ p {
     font-family: 'Raleway', sans-serif;
 }
 
+.header {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: #85c2c7;
+}
+
+.header img {
+    width: 50%;
+}
+
 .productdisplay {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5%;
+    grid-gap: 2%;
+}
+
+.product {
+    border: 2px;
+    text-align: center;
 }
 
 .product img {
-    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
