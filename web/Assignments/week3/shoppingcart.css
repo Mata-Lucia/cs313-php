@@ -10,10 +10,16 @@ p, h3 {
 
 header {
     background-color: #85c2c7;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
 }
 
 header a {
-    float: right;
+    align-items: right;
+}
+
+header h1 {
+    align-items: center;
 }
 
 header img {
