@@ -23,10 +23,10 @@ if ( isset($_GET["add"]) ) {
     <title>Shopping Cart Activity</title>
 </head>
 <body>
-    <div class="header">
+    <header>
         <h1>Poppy Party Store</h1>
         <a href="cart.php"><img src="images/cart.png" alt="cart"></a>
-    </div>
+    </header>
     <h2>Browse Products</h2>
     <div class="productdisplay">
         <?php

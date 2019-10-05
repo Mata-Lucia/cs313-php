@@ -4,18 +4,20 @@ h1, h2 {
     font-family: 'Abril Fatface', cursive;
 }
 
-p {
+p, h3 {
     font-family: 'Raleway', sans-serif;
 }
 
-.header {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+header {
     background-color: #85c2c7;
 }
 
-.header img {
-    width: 50%;
+header a {
+    float: right;
+}
+
+header img {
+    width: 15%;
 }
 
 .productdisplay {
@@ -33,6 +35,6 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
 }
 
