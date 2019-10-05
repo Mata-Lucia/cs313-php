@@ -2,8 +2,14 @@
 session_start();
 
 $product = array("Ballons", "Banner", "Plates");
-$image = array("images/ballons.png", "mages/banner.png","images/plates.png");
+$image = array("images/ballons.png", "images/banner.png","images/plates.png");
 $price = array("$5", "$5", "$5");
+
+if ( isset($_GET["add"]) ) {
+	$i = $_GET["add"];
+	$_SESSION["price"][$i] = $price[$i]; 
+	$_SESSION["cart"][$i] = $i;
+ }
 
 ?>
 
@@ -15,7 +21,7 @@ $price = array("$5", "$5", "$5");
     <title>Shopping Cart Activity</title>
 </head>
 <body>
-    <a href="cart.php">Cart</a>
+    <a href="cart.php"><img src="images/cart.png" alt="cart"></a>
     <h1>Browse Products</h1>
     <?php
 for ($i=0; $i< count($product); $i++) {
