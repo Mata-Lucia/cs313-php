@@ -30,7 +30,7 @@ for ($i=0; $i< count($product); $i++) {
 ?>
 	<div>
         <h2><?php echo($product[$i]); ?></h2>
-        <img src=<?php echo($image[$i]); ?> alt="Banner">
+        <img src=<?php echo($image[$i]); ?> alt="productimage">
 		<p><?php echo($price[$i]); ?></p>
 		<a href="?add=<?php echo($i); ?>">Add to cart</a>
 </div>
