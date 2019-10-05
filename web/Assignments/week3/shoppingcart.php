@@ -3,11 +3,13 @@ session_start();
 
 $product = array("Ballons", "Banner", "Plates");
 $image = array("images/ballons.png", "images/banner.png","images/plates.png");
-$price = array("$5", "$5", "$5");
+$price = array("$4", "$5", "$3");
 
 if ( isset($_GET["add"]) ) {
-	$i = $_GET["add"];
-	$_SESSION["price"][$i] = $price[$i]; 
+    $i = $_GET["add"];
+    $_SESSION["product"][$i] = $product[$i]; 
+    $_SESSION["image"][$i] = $image[$i]; 
+    $_SESSION["price"][$i] = $price[$i]; 
 	$_SESSION["cart"][$i] = $i;
  }
 

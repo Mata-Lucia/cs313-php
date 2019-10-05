@@ -6,8 +6,10 @@ session_start();
 foreach ( $_SESSION["cart"] as $i ) {
 ?>
 	<div>
-		<td><?php echo( $product[$_SESSION["cart"][$i]] ); ?></td>
-		<td><?php echo( $_SESSION["price"][$i] ); ?></td>
+        <p><?php echo( $product[$_SESSION["cart"][$i]] ); ?></p>
+        <p><?php echo( $_SESSION["product"][$i] ); ?></p>
+        <p><?php echo( $_SESSION["image"][$i] ); ?></p>
+		<p><?php echo( $_SESSION["price"][$i] ); ?></p>
     </div>
 <?php
 }
