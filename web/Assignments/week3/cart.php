@@ -20,6 +20,7 @@ if ( isset($_GET["delete"]) ) {
         <a href="cart.php"><img src="images/cart.png" alt="cart"></a>
     </header>
     <h2>Cart</h2>
+    <div class="productdisplay">
     <?php
     foreach ( $_SESSION["cart"] as $i ) {
     ?>
@@ -33,6 +34,7 @@ if ( isset($_GET["delete"]) ) {
     <?php
     }
     ?>
+    </div>
     <a href="shoppingcart.php" class="link">Back to Browsing</a>
     <a href="checkout.php" class="link">Check Out</a>
 </body>

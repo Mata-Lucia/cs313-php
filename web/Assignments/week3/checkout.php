@@ -13,15 +13,15 @@ session_start();
         <h1>POPPY PARTY STORE</h1>
         <a href="cart.php"><img src="images/cart.png" alt="cart"></a>
     </header>
-    <h1>Check Out</h1>
+    <h2>Check Out</h2>
     <p>Please enter your address:</p>
     <form action="confirmation.php" method="post">
-        <label for="name">Name</label><input type="text" name="name"><br>
-        <label for="street">Street</label><input type="text" name="street"><br>
-        <label for="city">City</label><input type="text" name="city"><br>
-        <label for="state">State</label><input type="text" name="state"><br>
-        <label for="zip">Zip Code</label><input type="text" name="zip"><br>
-        <input type="submit" name="submit" value="Complete Purchase">
+        <label for="name">Name</label><input type="text" name="name" required><br>
+        <label for="street">Street</label><input type="text" name="street" required><br>
+        <label for="city">City</label><input type="text" name="city" required><br>
+        <label for="state">State</label><input type="text" name="state" required><br>
+        <label for="zip">Zip Code</label><input type="text" name="zip" required><br>
+        <input type="submit" name="submit" value="Complete Purchase" class="submit" required>
     </form>
     <a href="cart.php" class="link">Go Back to Cart</a>
 </body>

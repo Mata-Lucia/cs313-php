@@ -13,7 +13,7 @@ h1 {
 
 h2 {
     font-size: 3rem;
-    padding: 5%;
+    padding-left: 5%;
 }
 
 p, h3, a {
@@ -30,7 +30,7 @@ header {
 
 header img, header a {
     width: 50%;
-    align-self: end;
+    align-self: center; 
 }
 
 .productdisplay {
@@ -51,20 +51,44 @@ header img, header a {
     width: 100%;
 }
 
-.product a, .product a:visited {
+.product a, .product a:visited, .submit a, .submit a:visited {
     text-decoration: none;
     color: #000000;
     font-size: 1.5rem;
     background-color: #adcbce;
-    border-width: 5px;
-    border-color: #045164;
     padding: 5%;
-    margin-top: 5%;
 }
 
-.product a:hover {
-    color: #045164;
+.product a:hover, .submit a:hover {
+    color: #022c30;
     font-weight: bold;
     text-decoration: none;
 }
 
+.address {
+    text-align: center;
+}
+
+.link a, .link a:visited {
+    text-decoration: none;
+    color: #c6ccce;;
+    font-size: 1.5rem;
+    background-color: #022c30;
+    padding: 5%;
+}
+
+.link a:hover {
+    color: #f7f8f8;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+label {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    padding-right: 5%;
+}
+
+input {
+    width: 30%;
+}

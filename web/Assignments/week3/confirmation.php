@@ -29,6 +29,7 @@ if ( isset($_GET["back"]) ) {
     <h2>Confirmation</h2>
     <p>Thank you for shopping!<p>
     <h3>Your order:</h3>
+    <div class="productdisplay">
     <?php
     foreach ( $_SESSION["cart"] as $i ) {
     ?>
@@ -41,6 +42,8 @@ if ( isset($_GET["back"]) ) {
     <?php
     }
     ?>
+    </div>
+    <div class="address">
     <h3>Will be mailed to:</h3>
     <p>Name: <?php echo $name; ?></p>
     <p>Address: <?php echo $street; ?></p>
@@ -48,4 +51,5 @@ if ( isset($_GET["back"]) ) {
     <p>State: <?php echo $state; ?></p>
     <p>Zip Code: <?php echo $zip; ?></p>
     <a href="?back=<?php echo($i); ?>" class="link">Back to Browsing</a>
+    </div>
 </body>
