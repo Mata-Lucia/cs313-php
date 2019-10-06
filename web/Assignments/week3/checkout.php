@@ -24,6 +24,6 @@ session_start();
         <input type="submit" name="submit" value="Complete Purchase" class="submit">
     </form>
     <div class="link">
-    <a href="cart.php">Go Back to Cart</a>
+    <a href="cart.php">Back to Cart</a>
     </div>
 </body>
