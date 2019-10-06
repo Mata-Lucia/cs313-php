@@ -44,7 +44,7 @@ if ( isset($_GET["back"]) ) {
     ?>
     </div>
     <div class="address">
-    <h3>Will be mailed to:</h3>
+    <h2>Will be mailed to:</h2>
     <p>Name: <?php echo $name; ?></p>
     <p>Address: <?php echo $street; ?></p>
     <p>City: <?php echo $city; ?></p>
