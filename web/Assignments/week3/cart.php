@@ -15,13 +15,17 @@ if ( isset($_GET["delete"]) ) {
     <title>Shopping Cart Activity</title>
 </head>
 <body>
-    <h1>Cart</h1>
+    <header>
+        <h1>POPPY PARTY STORE</h1>
+        <a href="cart.php"><img src="images/cart.png" alt="cart"></a>
+    </header>
+    <h2>Cart</h2>
     <?php
     foreach ( $_SESSION["cart"] as $i ) {
     ?>
-        <div>
-            <p><?php echo( $product[$_SESSION["cart"][$i]] ); ?></p>
-            <p><?php echo( $_SESSION["product"][$i] ); ?></p>
+        <div class="product">
+            <h3><?php echo( $product[$_SESSION["cart"][$i]] ); ?></h3>
+            <h3><?php echo( $_SESSION["product"][$i] ); ?></h3>
             <img src=<?php echo( $_SESSION["image"][$i] ); ?> alt="productimage">
             <p><?php echo( $_SESSION["price"][$i] ); ?></p>
             <a href="?delete=<?php echo($i); ?>">Delete from cart</a>
@@ -29,6 +33,6 @@ if ( isset($_GET["delete"]) ) {
     <?php
     }
     ?>
-    <a href="shoppingcart.php">Back to Browsing</a><br>
-    <a href="checkout.php">Check Out</a>
+    <a href="shoppingcart.php" class="link">Back to Browsing</a>
+    <a href="checkout.php" class="link">Check Out</a>
 </body>

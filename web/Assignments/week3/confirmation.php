@@ -22,26 +22,30 @@ if ( isset($_GET["back"]) ) {
     <title>Shopping Cart Activity</title>
 </head>
 <body>
-    <h1>Confirmation</h1>
+    <header>
+        <h1>POPPY PARTY STORE</h1>
+        <a href="cart.php"><img src="images/cart.png" alt="cart"></a>
+    </header>
+    <h2>Confirmation</h2>
     <p>Thank you for shopping!<p>
-    <h2>Your order:</h2>
+    <h3>Your order:</h3>
     <?php
     foreach ( $_SESSION["cart"] as $i ) {
     ?>
-        <div>
-            <p><?php echo( $product[$_SESSION["cart"][$i]] ); ?></p>
-            <p><?php echo( $_SESSION["product"][$i] ); ?></p>
+        <div class="product">
+            <h3><?php echo( $product[$_SESSION["cart"][$i]] ); ?></h3>
+            <h3><?php echo( $_SESSION["product"][$i] ); ?></h3>
             <img src=<?php echo( $_SESSION["image"][$i] ); ?> alt="productimage">
             <p><?php echo( $_SESSION["price"][$i] ); ?></p>
         </div>
     <?php
     }
     ?>
-    <h2>Will be mailed to:</h2>
+    <h3>Will be mailed to:</h3>
     <p>Name: <?php echo $name; ?></p>
     <p>Address: <?php echo $street; ?></p>
     <p>City: <?php echo $city; ?></p>
     <p>State: <?php echo $state; ?></p>
     <p>Zip Code: <?php echo $zip; ?></p>
-    <a href="?back=<?php echo($i); ?>">Back to Browsing</a>
+    <a href="?back=<?php echo($i); ?>" class="link">Back to Browsing</a>
 </body>

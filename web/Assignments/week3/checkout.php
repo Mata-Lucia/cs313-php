@@ -9,6 +9,10 @@ session_start();
     <title>Shopping Cart Activity</title>
 </head>
 <body>
+    <header>
+        <h1>POPPY PARTY STORE</h1>
+        <a href="cart.php"><img src="images/cart.png" alt="cart"></a>
+    </header>
     <h1>Check Out</h1>
     <p>Please enter your address:</p>
     <form action="confirmation.php" method="post">
@@ -19,5 +23,5 @@ session_start();
         <label for="zip">Zip Code</label><input type="text" name="zip"><br>
         <input type="submit" name="submit" value="Complete Purchase">
     </form>
-    <a href="cart.php">Go Back to Cart</a>
+    <a href="cart.php" class="link">Go Back to Cart</a>
 </body>
