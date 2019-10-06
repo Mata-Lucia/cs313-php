@@ -21,7 +21,7 @@ session_start();
         <label for="city">City</label><input type="text" name="city" required><br>
         <label for="state">State</label><input type="text" name="state" required><br>
         <label for="zip">Zip Code</label><input type="text" name="zip" required><br>
-        <input type="submit" name="submit" value="Complete Purchase" required>
+        <input type="submit" name="submit" value="Complete Purchase" class="submit">
     </form>
     <div class="link">
     <a href="cart.php">Go Back to Cart</a>

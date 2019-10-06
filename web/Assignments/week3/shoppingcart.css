@@ -94,10 +94,18 @@ label {
 input {
     width: 50%;
     float: right;
-    padding-right: 30%;
+    margin-right: 30%;
 }
 
 div.link {
     padding-top: 7%;
-    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.submit {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-size: 1.5rem;
+    background-color: #adcbce;
+    padding: 5%;
 }
