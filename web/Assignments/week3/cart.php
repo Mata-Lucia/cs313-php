@@ -35,6 +35,8 @@ if ( isset($_GET["delete"]) ) {
     }
     ?>
     </div>
-    <a href="shoppingcart.php" class="link">Back to Browsing</a>
-    <a href="checkout.php" class="link">Check Out</a>
+    <div class="link">
+    <a href="shoppingcart.php">Back to Browsing</a>
+    <a href="checkout.php">Check Out</a>
+    </div>
 </body>

@@ -13,7 +13,7 @@ h1 {
 
 h2 {
     font-size: 3rem;
-    padding-left: 5%;
+    padding-left: 2%;
 }
 
 p, h3, a {
@@ -51,7 +51,7 @@ header img, header a {
     width: 100%;
 }
 
-.product a, .product a:visited, .submit a, .submit a:visited {
+.product a, .product a:visited {
     text-decoration: none;
     color: #000000;
     font-size: 1.5rem;
@@ -59,7 +59,7 @@ header img, header a {
     padding: 5%;
 }
 
-.product a:hover, .submit a:hover {
+.product a:hover {
     color: #022c30;
     font-weight: bold;
     text-decoration: none;
@@ -67,6 +67,7 @@ header img, header a {
 
 .address {
     text-align: center;
+    background-color: #c6ccce;
 }
 
 .link a, .link a:visited {
