@@ -92,7 +92,7 @@ label {
 }
 
 input {
-    width: 50%;
+    width: 40%;
     float: right;
     margin-right: 30%;
 }
@@ -101,10 +101,19 @@ div.link {
     padding-top: 7%;
 }
 
+.adress h2 {
+    font-size: 2rem;
+}
+
+.address p {
+    font-size: 1.5rem;
+}
+
 .submit {
     font-family: 'Raleway', sans-serif;
     color: #000000;
     font-size: 1.5rem;
     background-color: #adcbce;
     padding: 1%;
+    width: 30%;
 }
