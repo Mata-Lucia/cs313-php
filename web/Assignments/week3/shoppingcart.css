@@ -1,33 +1,34 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 
 h1, h2 {
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 h1 {
     font-size: 3rem;
-    color: #045164;
+    color: #c6ccce;
 }
 
 h2 {
     font-size: 2rem;
 }
 
-p, h3 {
+p, h3, a {
     font-family: 'Raleway', sans-serif;
     font-size: 2rem;
 }
 
 header {
-    background-color: #adcbce;
+    background-color: #022c30;
     display: grid;
     grid-template-columns: 4fr 1fr;
     align-items: center;
 }
 
 header img {
-    width: 25%;
-    align-content: flex-end;
+    width: 50%;
+    align-self: end;
 }
 
 .productdisplay {
@@ -51,9 +52,11 @@ header img {
 .product a, .product a:visited {
     text-decoration: none;
     color: #000000;
-    font-size: 1rem;
+    font-size: 1.5rem;
     background-color: #adcbce;
-    border: 2px #045164;
+    border-width: 5px;
+    border-color: #045164;
+    padding: 5%;
 }
 
 .product a:hover {
