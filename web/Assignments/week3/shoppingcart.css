@@ -68,7 +68,7 @@ header img, header a {
 .address {
     text-align: center;
     background-color: #f0f0f0;
-    padding: 5%;
+    padding: 3%;
 }
 
 .link a, .link a:visited {
@@ -87,14 +87,16 @@ header img, header a {
 
 label {
     font-family: 'Raleway', sans-serif;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    padding: 2%;
 }
 
 input {
     width: 50%;
     float: right;
+    padding: 2% 30% 2% 0;
 }
 
 div.link {
-    padding: 10%;
+    padding-top: 5%;
 }

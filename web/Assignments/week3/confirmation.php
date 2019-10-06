@@ -50,8 +50,9 @@ if ( isset($_GET["back"]) ) {
     <p>City: <?php echo $city; ?></p>
     <p>State: <?php echo $state; ?></p>
     <p>Zip Code: <?php echo $zip; ?></p>
+    </div>
     <div class="link">
         <a href="?back=<?php echo($i); ?>" class="link">Back to Browsing</a>
     </div>
-    </div>
+    
 </body>
