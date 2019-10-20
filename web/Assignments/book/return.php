@@ -14,11 +14,11 @@ session_start();
         <header>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</li>
-                    <li><a href="checkout.html">Cheked Out</li>
-                    <li><a href="returned.html">Returned</li>
-                    <li><a href="addbook.html">Add New</li>
-                    <li><a href="return.html">Return</li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="checkout.php">Cheked Out</a></li>
+                    <li><a href="returned.php">Returned</a></li>
+                    <li><a href="addbook.php">Add New</a></li>
+                    <li><a href="return.php">Return</a></li>
                 </ul>
             </nav>
         </header>
