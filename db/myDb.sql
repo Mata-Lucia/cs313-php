@@ -48,10 +48,12 @@ INSERT INTO Review (bookID, review_content) VALUES (6, 'Loved this book!');
 
 SELECT title, authorname, genre, reading_level, check_out, due_date FROM Book AS b
 JOIN Author AS a 
-ON b.authorID = a.authorID;
+ON b.authorID = a.authorID
+WHERE already_read = 'false';
 
 SELECT title, authorname, genre, reading_level, check_out, due_date, review_content FROM Book AS b 
 JOIN Review AS r ON b.bookID = r.bookID
-JOIN Author AS a ON b.authorID = a.authorID;
+JOIN Author AS a ON b.authorID = a.authorID
+WHERE already_read = 'true';
 
 
