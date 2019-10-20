@@ -54,15 +54,16 @@ session_start();
             JOIN Author AS a ON b.authorID = a.authorID
             WHERE already_read = 'true'") as $row)
             {
+            echo '<h3>' . $row['title'] . '</h3>';
             echo '<ul>';
-            echo '<li>Title: ' . $row['title'] . '</li>';
             echo '<li>Author: ' . $row['authorname'] . '</li>';
             echo '<li>Genre: ' . $row['genre'] . '</li>';
             echo '<li>Reading Level: ' . $row['reading_level'] . '</li>';
             echo '<li>Check Out Date: ' . $row['check_out'] . '</li>';
             echo '<li>Due Date: ' . $row['due_date'] . '</li>';
-            echo '<li>What did you think of the book?: ' . $row['review_content'] . '</li>';
             echo '</ul>';
+            echo '<p>What did you think of the book?</p>';
+            echo '<p>' . $row['review_content'] . '</p>';
             }
             
             ?>

@@ -54,8 +54,8 @@ session_start();
             ON b.authorID = a.authorID
             WHERE already_read = 'false'") as $row)
             {
+            echo '<h3>' . $row['title'] . '</h3>';
             echo '<ul>';
-            echo '<li>Title: ' . $row['title'] . '</li>';
             echo '<li>Author: ' . $row['authorname'] . '</li>';
             echo '<li>Genre: ' . $row['genre'] . '</li>';
             echo '<li>Reading Level: ' . $row['reading_level'] . '</li>';
