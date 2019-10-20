@@ -10,6 +10,9 @@ body {
     align-content: center;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+main {
     padding: 20%;
 }
 
