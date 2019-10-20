@@ -25,6 +25,47 @@ session_start();
         <main>
             <h1>Book Manager</h1>
             <h2>Books You Have Read</h2>
+            <?php
+            try
+            {
+              $dbUrl = getenv('DATABASE_URL');
+            
+              $dbOpts = parse_url($dbUrl);
+            
+              $dbHost = $dbOpts["host"];
+              $dbPort = $dbOpts["port"];
+              $dbUser = $dbOpts["user"];
+              $dbPassword = $dbOpts["pass"];
+              $dbName = ltrim($dbOpts["path"],'/');
+            
+              $db = new PDO("pgsql:host=$dbHost;port=$dbPort;dbname=$dbName", $dbUser, $dbPassword);
+            
+              $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            }
+            catch (PDOException $ex)
+            {
+              echo 'Error!: ' . $ex->getMessage();
+              die();
+            }
+
+
+            foreach ($db->query("SELECT title, authorname, genre, reading_level, check_out, due_date, review_content FROM Book AS b 
+            JOIN Review AS r ON b.bookID = r.bookID
+            JOIN Author AS a ON b.authorID = a.authorID
+            WHERE already_read = 'true'") as $row)
+            {
+            echo '<ul>';
+            echo '<li>Title: ' . $row['title'] . '</li>';
+            echo '<li>Author: ' . $row['authorname'] . '</li>';
+            echo '<li>Genre: ' . $row['genre'] . '</li>';
+            echo '<li>Reading Level: ' . $row['reading_level'] . '</li>';
+            echo '<li>Check Out Date: ' . $row['check_out'] . '</li>';
+            echo '<li>Due Date: ' . $row['due_date'] . '</li>';
+            echo '<li>What did you think of the book?: ' . $row['review_content'] . '</li>';
+            echo '</ul>';
+            }
+            
+            ?>
         </main>
         <footer>
             <p>CS 313 Lucia Mata 2019</p>
