@@ -49,10 +49,10 @@ session_start();
             }
 
 
-            foreach ($db->query('SELECT title, authorname, genre, reading_level, check_out, due_date FROM Book AS b
+            foreach ($db->query("SELECT title, authorname, genre, reading_level, check_out, due_date FROM Book AS b
             JOIN Author AS a 
             ON b.authorID = a.authorID
-            WHERE already_read = "false"') as $row)
+            WHERE already_read = 'false'") as $row)
             {
             echo 'Title: ' . $row['title'];
             echo 'Author: ' . $row['authorname'];
