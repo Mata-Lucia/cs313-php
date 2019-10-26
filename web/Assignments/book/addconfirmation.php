@@ -1,5 +1,7 @@
 <?php
 
+ini_set('display_errors', 1);
+
 $title = htmlspecialchars($_POST['title']);
 $author = htmlspecialchars($_POST['author']);
 $genre = htmlspecialchars($_POST['genre']);
