@@ -25,6 +25,15 @@ session_start();
         <main>
             <h1>Book Manager</h1>
             <h2>Add A New Book</h2>
+            <form method="post" action="addconfirmation.php">
+                <label>Title</label><input type="text" name="title">
+                <label>Author</label><input name="author" type="text">
+                <label>Genre</label><input type="text" name="genre">
+                <label>Reading Level</label><input type="text" name="reading_level">
+                <label>Check Out Date</label><input type="text" name="check_out">
+                <label>Due Date:</label><input type="text" name="due_date">
+                <input type="submit" value="Add Book">
+            </form>
         </main>
         <footer>
             <p>CS 313 Lucia Mata 2019</p>

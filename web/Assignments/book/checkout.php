@@ -65,6 +65,8 @@ session_start();
             }
             
             ?>
+
+            <!-- Function to return book, update boolean to returned -->
         </main>
         <footer>
             <p>CS 313 Lucia Mata 2019</p>
