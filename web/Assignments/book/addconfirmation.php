@@ -17,7 +17,7 @@ $stmt = $db->prepare('INSERT INTO Author (authorName) VALUES (:author);');
 $stmt->bindValue(':author', $author, PDO::PARAM_INT);
 $stmt->execute();
 
-$newId = $pdo->lastInsertId('authorID');
+$newId = $pdo->lastInsertId(Author_authorID_seq);
 
 $stmt = $db->prepare('INSERT INTO Book (authorID, title, genre, reading_level, check_out, due_date, already_read ) 
 VALUES (:newId,:title, :genre, :reading_level, :check_out, :due_date, :already_read);');
