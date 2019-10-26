@@ -31,3 +31,5 @@ $stmt->execute();
 $new_page = "checkout.php";
 header("Location: $new_page");
 die();
+
+?>
