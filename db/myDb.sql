@@ -56,4 +56,7 @@ JOIN Review AS r ON b.bookID = r.bookID
 JOIN Author AS a ON b.authorID = a.authorID
 WHERE already_read = 'true';
 
+UPDATE Book SET already_read = 'true' WHERE bookID = 2;
+
+
 
