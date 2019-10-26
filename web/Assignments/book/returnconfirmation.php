@@ -2,7 +2,7 @@
 
 ini_set('display_errors', 1);
 
-$book_id = htmlspecialchars($_POST['id']);
+$book_id = htmlspecialchars($_POST['bookid']);
 $content = htmlspecialchars($_POST['review']);
 
 require('dbConnect.php');
