@@ -2,7 +2,7 @@
 
 ini_set('display_errors', 1);
 
-$book_id = htmlspecialchars($_POST['bookID']);
+$book_id = htmlspecialchars($_POST[$row['bookID']]);
 $title = htmlspecialchars($_POST['title']);
 $content = htmlspecialchars($_POST['review']);
 

@@ -34,7 +34,7 @@ session_start();
 
                 $query = $db->query("SELECT bookID, title FROM Book WHERE already_read = 'false';"); // Run your query
 
-                echo '<select name="title">'; // Open your drop down box
+                echo '<select name="titlebook">'; // Open your drop down box
 
                 // Loop through the query results, outputing the options one by one
                 while ($row = $query->fetch(PDO::FETCH_ASSOC)) {
