@@ -14,7 +14,7 @@ $stmt->bindValue(':book_id', $book_id, PDO::PARAM_INT);
 $stmt->bindValue(':content', $content, PDO::PARAM_INT);
 $stmt->execute();
 
-$stmt = $db->prepare('UPDATE Book SET already_read = 'true' WHERE bookID = :book_id;');
+$stmt = $db->prepare("UPDATE Book SET already_read = 'true' WHERE bookID = :book_id;");
 $stmt->bindValue(':book_id', $book_id, PDO::PARAM_INT);
 $stmt->execute();
 
