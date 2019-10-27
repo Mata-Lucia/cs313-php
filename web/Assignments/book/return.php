@@ -32,7 +32,7 @@ session_start();
                 require('dbConnect.php');
                 $db = get_db();
 
-                $query = $db->query("SELECT bookID, title FROM Book WHERE already_read = 'false';"); // Run your query
+                $query = $db->query("SELECT bookID, title FROM Book;"); // Run your query
 
                 echo '<select name="titlebook">'; // Open your drop down box
 
