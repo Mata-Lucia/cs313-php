@@ -12,6 +12,7 @@ body {
 
 main {
     padding: 20%;
+    margin: 0;
 }
 
 h1 {
@@ -35,3 +36,34 @@ p {
 footer {
     align-content: center;
 }
+
+/* Menu */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #A4036F;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(48, 2, 32);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(236, 49, 174);
+  }
+
+  .active {
+    background-color: rgb(54, 151, 115);
+  }

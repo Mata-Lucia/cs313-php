@@ -18,7 +18,7 @@ session_start();
                     <li><a href="checkout.php">Cheked Out</a></li>
                     <li><a href="returned.php">Returned</a></li>
                     <li><a href="addbook.php">Add New</a></li>
-                    <li><a href="return.php">Return</a></li>
+                    <li><a href="return.php" class="active">Return</a></li>
                 </ul>
             </nav>
         </header>
@@ -40,19 +40,6 @@ session_start();
                 }
 
                 echo '</select>';
-
-                //$query = $db->query("SELECT bookID, title FROM Book"); // Run your query
-
-                //echo '<select name="titlebook">'; // Open your drop down box
-
-                // Loop through the query results, outputing the options one by one
-                //while ($row = $query->fetch(PDO::FETCH_ASSOC)) {
-                    //$bookid = $row['bookID'];
-                    //echo '<p>' . $row['bookID'] . '</p>';
-                    //echo "<option value = '".$bookid."'" . ">".$row['title'].'</option>';
-                //}
-
-                //echo '</select>';
 
                 ?>
                 <label>What did you think of the book?</label><input type="textbox" name="review">

@@ -17,7 +17,7 @@ session_start();
                     <li><a href="index.php">Home</a></li>
                     <li><a href="checkout.php">Cheked Out</a></li>
                     <li><a href="returned.php">Returned</a></li>
-                    <li><a href="addbook.php">Add New</a></li>
+                    <li><a href="addbook.php" class="active">Add New</a></li>
                     <li><a href="return.php">Return</a></li>
                 </ul>
             </nav>
