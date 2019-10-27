@@ -34,7 +34,7 @@ session_start();
 
                 echo '<select name="titlebook">';
 
-                foreach ($db->query("SELECT bookID, title FROM Book") as $row)
+                foreach ($db->query("SELECT bookID, title FROM Book WHERE already_read = 'false';") as $row)
                 {
                     echo "<option value='" .$row['bookID'] . "'>".$row['title'].'</option>';
                 }
