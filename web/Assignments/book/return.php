@@ -32,18 +32,28 @@ session_start();
                 require('dbConnect.php');
                 $db = get_db();
 
-                $query = $db->query(" SELECT bookID, title FROM Book"); // Run your query
+                echo '<select name="titlebook">';
 
-                echo '<select name="titlebook">'; // Open your drop down box
-
-                // Loop through the query results, outputing the options one by one
-                while ($row = $query->fetch(PDO::FETCH_ASSOC)) {
+                foreach ($db->query("SELECT bookID, title FROM Book") as $row)
+                {
                     $bookid = $row['bookID'];
-                    echo '<p>' . $row['bookID'] . '</p>';
                     echo "<option value = '".$bookid."'" . ">".$row['title'].'</option>';
                 }
 
                 echo '</select>';
+
+                //$query = $db->query("SELECT bookID, title FROM Book"); // Run your query
+
+                //echo '<select name="titlebook">'; // Open your drop down box
+
+                // Loop through the query results, outputing the options one by one
+                //while ($row = $query->fetch(PDO::FETCH_ASSOC)) {
+                    //$bookid = $row['bookID'];
+                    //echo '<p>' . $row['bookID'] . '</p>';
+                    //echo "<option value = '".$bookid."'" . ">".$row['title'].'</option>';
+                //}
+
+                //echo '</select>';
 
                 ?>
                 <label>What did you think of the book?</label><input type="textbox" name="review">
