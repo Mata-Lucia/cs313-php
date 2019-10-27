@@ -36,8 +36,7 @@ session_start();
 
                 foreach ($db->query("SELECT bookID, title FROM Book") as $row)
                 {
-                    $bookid = $row['bookID'];
-                    echo "<option value = '".$bookid."'" . ">".$row['title'].'</option>';
+                    echo "<option value =" .$row['bookID'] . ">".$row['title'].'</option>';
                 }
 
                 echo '</select>';
