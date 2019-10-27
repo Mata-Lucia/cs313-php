@@ -39,7 +39,7 @@ session_start();
                 // Loop through the query results, outputing the options one by one
                 while ($row = $query->fetch(PDO::FETCH_ASSOC)) {
                     $bookid = $row['bookID'];
-                    echo '<p>' . $bookid . '</p>';
+                    echo '<p>' . $row['bookID'] . '</p>';
                     echo "<option value = '".$bookid."'" . ">".$row['title'].'</option>';
                 }
 
