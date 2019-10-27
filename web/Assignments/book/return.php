@@ -32,14 +32,14 @@ session_start();
                 require('dbConnect.php');
                 $db = get_db();
 
-                $query = $db->query("SELECT bookID, title FROM Book;"); // Run your query
+                $query = $db->query(" SELECT bookID, title FROM Book"); // Run your query
 
                 echo '<select name="titlebook">'; // Open your drop down box
 
                 // Loop through the query results, outputing the options one by one
                 while ($row = $query->fetch(PDO::FETCH_ASSOC)) {
-                    //$bookid = $row['bookID'];
-                echo '<option value="'.$row['bookID'].'">'.$row['title'].'</option>';
+                    $bookid = $row['bookID'];
+                echo '<option value="$bookid">'.$row['title'].'</option>';
                 }
 
                 echo '</select>';
