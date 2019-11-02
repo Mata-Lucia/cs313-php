@@ -39,7 +39,7 @@ footer {
 
 /* Menu */
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -47,11 +47,11 @@ ul {
     background-color: #F6E8F1;
   }
   
-  li {
+ nav li {
     float: left;
   }
   
-  li a {
+ nav li a {
     display: block;
     color: rgb(48, 2, 32);
     text-align: center;
@@ -60,10 +60,10 @@ ul {
     font-family: 'Montserrat', sans-serif;
   }
   
-  li a:hover {
+ nav li a:hover {
     background-color: #F29E4C;
   }
 
-  .active {
+ nav .active {
     background-color: #048BA8;
   }
