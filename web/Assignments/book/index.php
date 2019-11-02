@@ -26,6 +26,7 @@ session_start();
             <h1>Book Manager</h1>
             <p>Welcome to the Book Manager! Here you can keep track of the books you are currently reading, and of the ones you have already read.</p>
             <p>Happy reading!</p>
+            <img class="bookicon" src="bookicon.png" alt="Book Icon">
 
             <!-- Future search function -->
         </main>
