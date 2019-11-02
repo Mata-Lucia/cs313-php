@@ -101,6 +101,7 @@ nav ul {
   }
 
 /* Forms */
+
 .formbooks input[type=text], select {
     width: 100%;
     padding: 12px 20px;
@@ -126,7 +127,7 @@ nav ul {
     background-color: #048BA8;
   }
   
-.formbooks div {
+.formbooks {
     border-radius: 5px;
     background-color: #F6E8F1;
     padding: 20px;
