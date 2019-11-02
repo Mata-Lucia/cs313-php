@@ -113,6 +113,7 @@ nav ul {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
   }
   
 .formbooks input[type=submit] {
@@ -124,14 +125,16 @@ nav ul {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-family: 'Staatliches', cursive;
   }
   
 .formbooks input[type=submit]:hover {
-    background-color: #048BA8;
+    background-color: rgb(221, 139, 56);
   }
   
 .formbooks {
     border-radius: 5px;
     background-color: #ccffcc;
     padding: 10%;
+    margin: 10%;
   }

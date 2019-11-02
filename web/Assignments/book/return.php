@@ -23,11 +23,11 @@ session_start();
             </nav>
         </header>
         <main>
-            <h1>Book Manager</h1>
-            <h2>The Return a Book</h2>
+            <h1>The Book Manager</h1>
+            <h2>Return a Book</h2>
             <form action="returnconfirmation.php" method="post">
+            <div class="formbooks">
                 <label>Title</label>
-                <div class="formbooks">
                 <?php
 
                 require('dbConnect.php');
