@@ -24,7 +24,7 @@ session_start();
         </header>
         <main class="homepage">
             <h1>The Book Manager</h1>
-            <p>Welcome to the Book Manager! Here you can keep track of the books you are currently reading, and of the ones you have already read.</p>
+            <p>Welcome to The Book Manager! Here you can keep track of the books you are currently reading, and of the ones you have already read. With reviews included!</p>
             <p>Happy reading!</p>
             <img class="bookicon" src="bookicon.png" alt="Book Icon">
 
