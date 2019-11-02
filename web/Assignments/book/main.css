@@ -136,3 +136,40 @@ nav ul {
     padding: 3% 10%;
     margin: 3% 10%;
   }
+
+.deletebooks input[type=text], input[type=textbox], select, option {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+.deletebooks label {
+    font-family: 'Montserrat', sans-serif;
+}
+  
+.deletebooks input[type=submit] {
+    width: 100%;
+    background-color: #F29E4C;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+.deletebooks input[type=submit]:hover {
+    background-color: rgb(221, 139, 56);
+  }
+  
+.deletebooks {
+    border-radius: 5px;
+    background-color: #ccffcc;
+    padding: 2% 5%;
+    margin: 3% 10%;
+  }

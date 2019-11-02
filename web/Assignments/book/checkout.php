@@ -69,8 +69,10 @@ session_start();
             
             ?>
             </div>
-            <div class="formbooks">
-                <h2>Delete a Book</h2>
+            <div class="deletebooks">
+                <h3>Delete a Book</h3>
+                <p>Did you add a book by mistake? Do you want to delete it from the list instead of marking it as returned? Choose it below and delete!</p>
+                <p>If you need to return instead, click <a href="return.php">here!</a></p>
                 <form action="deletebookreading.php" method="post">
                 <label>Title</label>
                 <?php

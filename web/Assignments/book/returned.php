@@ -71,6 +71,29 @@ session_start();
             
             ?>
             </div>
+            <div class="deletebooks">
+                <h3>Delete a Book</h3>
+                <p>Do you need to delete any book from the list? Choose from below and delete!</p>
+                <form action="deletebookreturned.php" method="post">
+                <label>Title</label>
+                <?php
+
+                require('dbConnect.php');
+                $db = get_db();
+
+                echo '<select name="titlebook">';
+
+                foreach ($db->query("SELECT bookID, title FROM Book WHERE already_read = 'true';") as $row)
+                {
+                    echo "<option value='" .$row['bookid'] . "'>".$row['title'].'</option>';
+                }
+
+                echo '</select><br>';
+
+                ?>
+                <input type="submit" value="Delete book">
+            </form>
+            </div>
         </main>
         <footer>
             <p>CS 313 Lucia Mata 2019</p>
