@@ -23,7 +23,7 @@ session_start();
             </nav>
         </header>
         <main>
-            <h1>Book Manager</h1>
+            <h1>The Book Manager</h1>
             <h2>Books You Have Read</h2>
             <?php
             try

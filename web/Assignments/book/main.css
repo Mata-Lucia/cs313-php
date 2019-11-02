@@ -14,6 +14,8 @@ h1 {
     font-family: 'Staatliches', cursive;
     color: #000000;
     padding: 3% 2%;
+    font-size: 2.5rem;
+    text-align: center;
 
 }
 
@@ -34,6 +36,7 @@ footer {
     text-align: center;
     background-color: #F6E8F1;
     padding: 3%;
+    margin-bottom: 0;
 }
 
 .bookicon {
@@ -42,11 +45,13 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 10%;
+    padding-bottom: 5%;
 }
 
 .homepage p {
     text-align: center;
     padding: 3% 10%;
+    font-size: 1.5rem;
 }
 
 /* Menu */

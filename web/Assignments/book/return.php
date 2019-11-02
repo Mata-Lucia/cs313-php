@@ -24,7 +24,7 @@ session_start();
         </header>
         <main>
             <h1>Book Manager</h1>
-            <h2>Return a Book</h2>
+            <h2>The Return a Book</h2>
             <form action="returnconfirmation.php" method="post">
                 <label>Title</label>
                 <?php
@@ -39,7 +39,7 @@ session_start();
                     echo "<option value='" .$row['bookid'] . "'>".$row['title'].'</option>';
                 }
 
-                echo '</select>';
+                echo '</select><br>';
 
                 ?>
                 <label>What did you think of the book?</label><input type="textbox" name="review">

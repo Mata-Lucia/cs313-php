@@ -23,7 +23,7 @@ session_start();
             </nav>
         </header>
         <main>
-            <h1>Book Manager</h1>
+            <h1>The Book Manager</h1>
             <h2>Add A New Book</h2>
             <form method="post" action="addconfirmation.php">
                 <label>Title</label><input type="text" name="title"><br>
