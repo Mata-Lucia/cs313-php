@@ -62,6 +62,10 @@ footer {
     grid-gap: 2%;
 }
 
+.item {
+    padding: 2%;
+}
+
 /* Menu */
 
 nav ul {
