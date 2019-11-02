@@ -25,6 +25,7 @@ session_start();
         <main>
             <h1>The Book Manager</h1>
             <h2>Books You Are Reading</h2>
+            <div class="list">
             <?php
             try
             {
@@ -54,6 +55,7 @@ session_start();
             ON b.authorID = a.authorID
             WHERE already_read = 'false'") as $row)
             {
+            echo '<div class="item">';
             echo '<h3>' . $row['title'] . '</h3>';
             echo '<ul>';
             echo '<li>Author: ' . $row['authorname'] . '</li>';
@@ -62,11 +64,13 @@ session_start();
             echo '<li>Check Out Date: ' . $row['check_out'] . '</li>';
             echo '<li>Due Date: ' . $row['due_date'] . '</li>';
             echo '</ul>';
+            echo '</div>';
             }
             
             ?>
 
             <!-- Function to return book, update boolean to returned -->
+            </div>
         </main>
         <footer>
             <p>CS 313 Lucia Mata 2019</p>

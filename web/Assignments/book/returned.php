@@ -25,6 +25,7 @@ session_start();
         <main>
             <h1>The Book Manager</h1>
             <h2>Books You Have Read</h2>
+            <div class="list">
             <?php
             try
             {
@@ -54,6 +55,7 @@ session_start();
             JOIN Author AS a ON b.authorID = a.authorID
             WHERE already_read = 'true'") as $row)
             {
+            echo '<div class="item">';
             echo '<h3>' . $row['title'] . '</h3>';
             echo '<ul>';
             echo '<li>Author: ' . $row['authorname'] . '</li>';
@@ -64,9 +66,11 @@ session_start();
             echo '</ul>';
             echo '<p>What did you think of the book?</p>';
             echo '<p>' . $row['review_content'] . '</p>';
+            echo '</div>';
             }
             
             ?>
+            </div>
         </main>
         <footer>
             <p>CS 313 Lucia Mata 2019</p>
