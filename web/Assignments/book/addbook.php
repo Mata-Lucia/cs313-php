@@ -25,7 +25,7 @@ session_start();
         <main>
             <h1>The Book Manager</h1>
             <h2>Add A New Book</h2>
-            <div class="form">
+            <div class="formbooks">
             <form method="post" action="addconfirmation.php">
                 <label>Title</label><input type="text" name="title"><br>
                 <label>Author</label><input name="author" type="text"><br>

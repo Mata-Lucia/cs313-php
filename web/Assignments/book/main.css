@@ -101,7 +101,7 @@ nav ul {
   }
 
 /* Forms */
-.form input[type=text], select {
+.formbooks input[type=text], select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -111,7 +111,7 @@ nav ul {
     box-sizing: border-box;
   }
   
-.form input[type=submit] {
+.formbooks input[type=submit] {
     width: 100%;
     background-color: #F29E4C;
     color: white;
@@ -122,11 +122,11 @@ nav ul {
     cursor: pointer;
   }
   
-.form input[type=submit]:hover {
+.formbooks input[type=submit]:hover {
     background-color: #048BA8;
   }
   
-.form div {
+.formbooks div {
     border-radius: 5px;
     background-color: #F6E8F1;
     padding: 20px;

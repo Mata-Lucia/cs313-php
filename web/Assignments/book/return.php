@@ -27,7 +27,7 @@ session_start();
             <h2>The Return a Book</h2>
             <form action="returnconfirmation.php" method="post">
                 <label>Title</label>
-                <div class="form">
+                <div class="formbooks">
                 <?php
 
                 require('dbConnect.php');
