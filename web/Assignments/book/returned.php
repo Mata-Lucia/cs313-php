@@ -91,7 +91,7 @@ session_start();
                 echo '</select><br>';
 
                 ?>
-                <input type="submit" value="Delete book">
+                <input type="submit" value="Return book">
             </form>
             </div>
         </main>

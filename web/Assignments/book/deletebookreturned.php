@@ -7,6 +7,10 @@ $book_id = htmlspecialchars($_POST['titlebook']);
 require('dbConnect.php');
 $db = get_db();
 
+$stmt = $db->prepare('DELETE FROM Review WHERE bookID = :book_id;');
+$stmt->bindValue(':book_id', $book_id, PDO::PARAM_INT);
+$stmt->execute();
+
 $stmt = $db->prepare('DELETE FROM Book WHERE bookID = :book_id;');
 $stmt->bindValue(':book_id', $book_id, PDO::PARAM_INT);
 $stmt->execute();
