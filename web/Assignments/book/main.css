@@ -59,6 +59,9 @@ footer {
 .list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 5px;
+    background-color: #b2ffb2;
+    padding: 20px;
 }
 
 .item {
@@ -129,6 +132,6 @@ nav ul {
   
 .formbooks {
     border-radius: 5px;
-    background-color: #F6E8F1;
+    background-color: #b2ffb2;
     padding: 20px;
   }
