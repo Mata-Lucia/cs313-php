@@ -67,6 +67,10 @@ footer {
     text-align: center;
 }
 
+.item li {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* Menu */
 
 nav ul {
@@ -171,5 +175,9 @@ nav ul {
     border-radius: 5px;
     background-color: #ccffcc;
     padding: 2% 5%;
-    margin: 3% 10%;
+    margin: 3% 5%;
   }
+
+.deletebooks p {
+    padding: 2% 2%;
+}
