@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Staatliches&display=swap');
 
 html {
-    background-color: #16DB93;
+    background-image: url('background.jpg');
 }
 
 body {
