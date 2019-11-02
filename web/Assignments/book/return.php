@@ -15,7 +15,7 @@ session_start();
             <nav>
                 <ul>
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="checkout.php">Cheked Out</a></li>
+                    <li><a href="checkout.php">Reading</a></li>
                     <li><a href="returned.php">Returned</a></li>
                     <li><a href="addbook.php">Add New</a></li>
                     <li><a href="return.php" class="active">Return</a></li>

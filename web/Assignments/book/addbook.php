@@ -15,7 +15,7 @@ session_start();
             <nav>
                 <ul>
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="checkout.php">Cheked Out</a></li>
+                    <li><a href="checkout.php">Reading</a></li>
                     <li><a href="returned.php">Returned</a></li>
                     <li><a href="addbook.php" class="active">Add New</a></li>
                     <li><a href="return.php">Return</a></li>
@@ -30,9 +30,9 @@ session_start();
                 <label>Title</label><input type="text" name="title"><br>
                 <label>Author</label><input name="author" type="text"><br>
                 <label>Genre</label><input type="text" name="genre"><br>
-                <label>Reading Level</label><input type="text" name="reading_level"><br>
-                <label>Check Out Date</label><input type="text" name="check_out"><br>
-                <label>Due Date:</label><input type="text" name="due_date"><br>
+                <label>Reading Level (only numbers)</label><input type="text" name="reading_level"><br>
+                <label>Check Out Date (YYYY-MM-DD)</label><input type="text" name="check_out"><br>
+                <label>Due Date (YYYY-MM-DD)</label><input type="text" name="due_date"><br>
                 <input type="submit" value="Add Book">
             </form>
             </div>
