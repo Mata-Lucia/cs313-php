@@ -31,7 +31,7 @@ p {
 footer {
     text-align: center;
     background-color: #F6E8F1;
-    padding: 20%;
+    padding: 5%;
 }
 
 .bookicon {
@@ -56,7 +56,7 @@ nav ul {
     display: block;
     color: rgb(48, 2, 32);
     text-align: center;
-    padding: 10% 15%;
+    padding: 14px 16px;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
   }
