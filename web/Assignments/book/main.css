@@ -59,11 +59,14 @@ footer {
 .list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 2%;
 }
 
 .item {
-    padding: 2%;
+    padding: 5%;
+}
+
+.item p {
+    text-align: center;
 }
 
 /* Menu */
