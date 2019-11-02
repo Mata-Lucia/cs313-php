@@ -27,6 +27,7 @@ session_start();
             <h2>The Return a Book</h2>
             <form action="returnconfirmation.php" method="post">
                 <label>Title</label>
+                <div class="form">
                 <?php
 
                 require('dbConnect.php');
@@ -44,6 +45,7 @@ session_start();
                 ?>
                 <label>What did you think of the book?</label><input type="textbox" name="review">
                 <input type="submit" value="Return book">
+            </div>
             </form>
         </main>
         <footer>
