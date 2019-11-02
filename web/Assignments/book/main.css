@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Anton|Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Staatliches&display=swap');
 
 html {
     background-color: #16DB93;
@@ -15,8 +15,8 @@ main {
 }
 
 h1 {
-    font-family: 'Anton', sans-serif;
-    color: #A4036F;
+    font-family: 'Staatliches', cursive;
+    color: #000000;
 
 }
 
@@ -25,7 +25,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Staatliches', cursive;
 }
 
 p {
@@ -33,7 +33,7 @@ p {
 }
 
 footer {
-    align-content: center;
+    text-align: center;
 }
 
 /* Menu */
@@ -55,13 +55,13 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
   }
   
-  /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: rgb(236, 49, 174);
   }
 
   .active {
-    background-color: rgb(54, 151, 115);
+    background-color: #048BA8;
   }
