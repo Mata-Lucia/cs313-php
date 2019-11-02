@@ -58,5 +58,5 @@ WHERE already_read = 'true';
 
 UPDATE Book SET already_read = 'true' WHERE bookID = 2;
 
-
+DELETE FROM Book WHERE bookID = 2;
 

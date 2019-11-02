@@ -68,8 +68,28 @@ session_start();
             }
             
             ?>
+            </div>
+            <div class="formbooks">
+                <h2>Delete a Book</h2>
+                <form action="deletebookreading.php" method="post">
+                <label>Title</label>
+                <?php
 
-            <!-- Function to return book, update boolean to returned -->
+                require('dbConnect.php');
+                $db = get_db();
+
+                echo '<select name="titlebook">';
+
+                foreach ($db->query("SELECT bookID, title FROM Book WHERE already_read = 'false';") as $row)
+                {
+                    echo "<option value='" .$row['bookid'] . "'>".$row['title'].'</option>';
+                }
+
+                echo '</select><br>';
+
+                ?>
+                <input type="submit" value="Delete book">
+            </form>
             </div>
         </main>
         <footer>

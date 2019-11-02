@@ -20,3 +20,4 @@ $stmt->execute();
 $new_page = "returned.php";
 header("Location: $new_page");
 die();
+?>

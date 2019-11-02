@@ -45,8 +45,8 @@ session_start();
                 ?>
                 <label>What did you think of the book?</label><input type="textbox" name="review">
                 <input type="submit" value="Return book">
-            </div>
             </form>
+            </div>
         </main>
         <footer>
             <p>CS 313 Lucia Mata 2019</p>
