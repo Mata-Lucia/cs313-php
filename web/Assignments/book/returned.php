@@ -15,7 +15,7 @@ session_start();
             <nav>
                 <ul>
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="checkout.php">Cheked Out</a></li>
+                    <li><a href="checkout.php">Reading</a></li>
                     <li><a href="returned.php" class="active">Returned</a></li>
                     <li><a href="addbook.php">Add New</a></li>
                     <li><a href="return.php">Return</a></li>
@@ -73,7 +73,7 @@ session_start();
             </div>
             <div class="deletebooks">
                 <h3>Delete a Book</h3>
-                <p>Do you need to delete any book from the list? Choose from below and delete!</p>
+                <p>Do you need to delete any books from the list? Choose from below and delete!</p>
                 <form action="deletebookreturned.php" method="post">
                 <label>Title</label>
                 <?php
@@ -91,7 +91,7 @@ session_start();
                 echo '</select><br>';
 
                 ?>
-                <input type="submit" value="Return book">
+                <input type="submit" value="Delete book">
             </form>
             </div>
         </main>
